@@ -1,0 +1,152 @@
+.nav-modal {
+    position: absolute;
+    display: block;
+}
+
+.nav-card {
+    top: 170px;
+    padding: 0;
+    width: 90vw;
+    overflow: hidden;
+}
+
+.modal__nav-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__nav-links li {
+    padding: 1.5rem;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.modal__nav-links li:hover {
+    background-color: var(--very-light-gray);
+}
+
+.modal__nav-links li:not(:last-child) {
+    border-bottom: 1px solid var(--very-light-gray)
+}
+
+.modal-card-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--very-light-gray);
+}
+
+.modal-card-disabled {
+    cursor: not-allowed;
+}
+
+.modal-card-heading .card-heading {
+    align-items: center
+}
+
+.modal-card-heading .card-heading span {
+    margin-left: 1rem;
+}
+
+.modal-card-heading .card-left-count {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.card-modal,
+.card-modal-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-heading {
+    cursor: pointer;
+}
+
+.selected-card {
+    border: 2px solid var(--moderate-cyan);
+}
+
+.card-enter-pledge {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card-enter-pledge input {
+    width: 30%;
+    border: none;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    font-family: 'Commissioner', sans-serif;
+    font-weight: 700;
+}
+
+.card-enter-pledge input:focus {
+    outline: none;
+}
+
+.card-enter-pledge p {
+    flex: 1;
+    margin: 0;
+}
+
+.card-enter-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+
+.card-enter-input {
+    flex: 0;
+}
+
+.card-enter-input input {
+    width: 108px;
+}
+
+.card-enter-btns span {
+    position: absolute;
+    top: 16.5px;
+    left: 16px;
+    font-size: 13px;
+    color: var(--dark-gray);
+}
+
+@media screen and (max-width: 500px) {
+    .card-enter-pledge {
+        flex-wrap: wrap;
+    }
+
+    .modal-card-heading .card-heading span {
+        margin-left: 0;
+    }
+
+    .card-enter-pledge p {
+        min-width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .card-enter-btns {
+        justify-content: space-between;
+        flex: 1;
+    }
+
+    .card-enter-btns button{
+        padding: 1rem;
+        font-size: 12px;
+    }
+
+    .card-enter-btns input {
+        width: 90px;
+        padding-right: 1rem;
+    }
+}
