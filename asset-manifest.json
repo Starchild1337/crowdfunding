@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/crowdfunding/static/css/main.58be6a55.chunk.css",
+    "main.js": "/crowdfunding/static/js/main.43ac5af4.chunk.js",
+    "main.js.map": "/crowdfunding/static/js/main.43ac5af4.chunk.js.map",
+    "runtime-main.js": "/crowdfunding/static/js/runtime-main.fbe725f5.js",
+    "runtime-main.js.map": "/crowdfunding/static/js/runtime-main.fbe725f5.js.map",
+    "static/js/2.6648d413.chunk.js": "/crowdfunding/static/js/2.6648d413.chunk.js",
+    "static/js/2.6648d413.chunk.js.map": "/crowdfunding/static/js/2.6648d413.chunk.js.map",
+    "index.html": "/crowdfunding/index.html",
+    "precache-manifest.58d878ebb51111134caddbdfd35d0e5b.js": "/crowdfunding/precache-manifest.58d878ebb51111134caddbdfd35d0e5b.js",
+    "service-worker.js": "/crowdfunding/service-worker.js",
+    "static/css/main.58be6a55.chunk.css.map": "/crowdfunding/static/css/main.58be6a55.chunk.css.map",
+    "static/js/2.6648d413.chunk.js.LICENSE.txt": "/crowdfunding/static/js/2.6648d413.chunk.js.LICENSE.txt",
+    "static/media/close-modal.svg": "/crowdfunding/static/media/close-modal.a942b4d8.svg",
+    "static/media/hero-desktop.jpg": "/crowdfunding/static/media/hero-desktop.7f6e2a17.jpg",
+    "static/media/icon-bookmark.svg": "/crowdfunding/static/media/icon-bookmark.5b077727.svg",
+    "static/media/icon-check.svg": "/crowdfunding/static/media/icon-check.b2fbba35.svg",
+    "static/media/icon-close-menu.svg": "/crowdfunding/static/media/icon-close-menu.7b0ab1a3.svg",
+    "static/media/icon-hamburger.svg": "/crowdfunding/static/media/icon-hamburger.f8b2673b.svg",
+    "static/media/logo-mastercraft.svg": "/crowdfunding/static/media/logo-mastercraft.17fbdfc2.svg",
+    "static/media/logo.svg": "/crowdfunding/static/media/logo.213a6fb9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fbe725f5.js",
+    "static/js/2.6648d413.chunk.js",
+    "static/css/main.58be6a55.chunk.css",
+    "static/js/main.43ac5af4.chunk.js"
+  ]
+}
